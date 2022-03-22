@@ -24,6 +24,35 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+let moo = 'cow'
+let neigh = 'horse'
+let baa = 'sheep'
+let oink = 'pig'
+let cluck = 'chicken'
+
+const bessie = "cow"
+const dolly = "sheep"
+const babe = "pig"
+const little = "chicken"
+
+const blackAndWhite = "cow"
+const black = "sheep"
+const pink = "pig"
+
+const [red, orange, yellow, green, blue, indigo, violet] = colors
+const [r, o, y, g, b, i, v] = colors
+const [indg] = ["indigo"]
+
+const {muppetName = 'Miss Piggy',
+      color = "pink",
+      song = 'Never Before, Never Again',
+      job = 'Cast member of The Muppet Show',
+      partner = 'Kermit'} = muppet;
+
+const {song2 = "Moving Right Along",
+       song4 = "I Hope That Something Better Comes Along",
+       nestedJob = "Host of The Muppet Show",
+       nestedPartner = "Miss Piggy"} = nestedMuppet;
 
 // Strings
 
